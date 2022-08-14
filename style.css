@@ -1,10 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0px;
+    padding:0px;
 }
 
 .header {
     background-color:#1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-section {
@@ -23,6 +29,12 @@ body {
     background-color: #1F2937;
 }
 
+ul {
+    display:flex;
+    gap:25px;
+    margin-right:200px;
+}
+
 li {
     list-style: none;
     color:#F9FAF8;
@@ -31,6 +43,7 @@ li {
 .logo {
     font-size: 24px;
     color:#F9FAF8;
+    margin-left:200px;
 }
 
 h1 {
