@@ -15,6 +15,9 @@ body {
 
 .main-section {
     background-color:#1F2937;
+    display:flex;
+    align-items: center;
+    padding:200px;
 }
 
 .call-to-action {
@@ -61,6 +64,7 @@ h2 {
 .secondary-text {
     font-size:18px;
     color:#F9FAF8;
+    display: flex;
 }
 
 .quote-text {
