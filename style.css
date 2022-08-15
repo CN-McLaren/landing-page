@@ -80,6 +80,12 @@ img {
     gap:600px;
 }
 
+.lead-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .secondary-text {
     font-size:18px;
     color:#F9FAF8;
