@@ -6,48 +6,6 @@ body {
     padding:0px;
 }
 
-.header {
-    background-color:#1F2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.main-section {
-    background-color:#1F2937;
-    display:flex;
-    align-items: center;
-    padding:200px;
-}
-
-.call-to-action {
-    background-color:#3882F6;
-}
-
-.quote-section {
-    background-color: #E5E7EB;
-    padding:200px;
-}
-
-.quote-author {
-    font-weight:bold;
-    font-size:25px;
-    margin-left:200px;
-}
-
-.quote-container {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left:250px;
-    margin-right:250px;
-}
-
-.footer {
-    background-color: #1F2937;
-}
-
 ul {
     display:flex;
     gap:25px;
@@ -57,12 +15,6 @@ ul {
 li {
     list-style: none;
     color:#F9FAF8;
-}
-
-.logo {
-    font-size: 24px;
-    color:#F9FAF8;
-    margin-left:200px;
 }
 
 h1 {
@@ -80,22 +32,37 @@ h2 {
     padding-top:30px;
 }
 
+img {
+    width:150px;
+    height:150px;
+}
+
+.header {
+    background-color:#1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color:#F9FAF8;
+    margin-left:200px;
+}
+
+.main-section {
+    background-color:#1F2937;
+    display:flex;
+    align-items: center;
+    padding:200px;
+}
+
 .secondary-text {
     font-size:18px;
     color:#F9FAF8;
     display: flex;
 }
 
-.quote-text {
-    font-size: 36px;
-    font-style: italic;
-    color:#1F2937;
-    display:flex;
-}
-
-.quote-author {
-    padding-left:200px;
-}
 .container {
     flex-direction:row;
     display:flex;
@@ -132,12 +99,45 @@ h2 {
     margin-right:300px;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    padding:200px;
+}
+
+.quote-author {
+    font-weight:bold;
+    font-size:25px;
+    margin-left:200px;
+    padding-left:200px;
+}
+
+.quote-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:250px;
+    margin-right:250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    display:flex;
+}
+
+.call-to-action {
+    background-color:#3882F6;
+}
+
 .sign-up {
     background-color:#3882F6;
 }
 
-img {
-    width:150px;
-    height:150px;
+.footer {
+    background-color: #1F2937;
 }
+
+
 
