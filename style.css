@@ -148,7 +148,8 @@ img {
 
 .footer {
     background-color: #1F2937;
-    display:flex;
+    display: flex;
+    justify-content: center;
 }
 
 
