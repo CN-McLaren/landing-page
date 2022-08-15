@@ -50,6 +50,10 @@ img {
     margin-left:200px;
 }
 
+.sign-up-header {
+    background-color:#3882F6;
+}
+
 .main-section {
     background-color:#1F2937;
     display:flex;
@@ -130,20 +134,23 @@ img {
 
 .prompt-section {
     padding:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-to-action {
     background-color:#3882F6;
-    display: flex;
-    justify-content: center;
-    padding:40px;
-    border-radius: 10px;
-    margin-left:250px;
-    margin-right:250px;
 }
 
-.sign-up {
+.prompt-left-container 
+
+.prompt-right-container
+
+.sign-up-cta {
     background-color:#3882F6;
+    border-color:white;
+    border-radius:10px;
 }
 
 .footer {
