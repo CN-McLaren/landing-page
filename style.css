@@ -26,6 +26,22 @@ body {
 
 .quote-section {
     background-color: #E5E7EB;
+    padding:200px;
+}
+
+.quote-author {
+    font-weight:bold;
+    font-size:25px;
+    margin-left:200px;
+}
+
+.quote-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:250px;
+    margin-right:250px;
 }
 
 .footer {
@@ -74,8 +90,12 @@ h2 {
     font-size: 36px;
     font-style: italic;
     color:#1F2937;
+    display:flex;
 }
 
+.quote-author {
+    padding-left:200px;
+}
 .container {
     flex-direction:row;
     display:flex;
