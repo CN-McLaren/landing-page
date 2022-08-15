@@ -32,6 +32,11 @@ h2 {
     padding-top:30px;
 }
 
+h3 {
+    font-size:25px;
+    color:white;
+}
+
 img {
     width:150px;
     height:150px;
@@ -141,16 +146,36 @@ img {
 
 .call-to-action {
     background-color:#3882F6;
+    display:flex;
+    justify-content: space-between;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:10px;
 }
 
-.prompt-left-container 
+.prompt-left-container {
+    display:flex;
+    margin:50px
+}
 
-.prompt-right-container
+.prompt-right-container {
+    display:flex;
+    margin:50px;
+}
 
 .sign-up-cta {
     background-color:#3882F6;
     border-color:white;
     border-radius:10px;
+    color:white;
+    font-size:15px;
+    padding:10px;
+}
+
+.prompt-text {
+    color:white;
 }
 
 .footer {
