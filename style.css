@@ -55,6 +55,7 @@ img {
     display:flex;
     align-items: center;
     padding:200px;
+    justify-content: center;
 }
 
 .secondary-text {
@@ -127,8 +128,18 @@ img {
     display:flex;
 }
 
+.prompt-section {
+    padding:150px;
+}
+
 .call-to-action {
     background-color:#3882F6;
+    display: flex;
+    justify-content: center;
+    padding:40px;
+    border-radius: 10px;
+    margin-left:250px;
+    margin-right:250px;
 }
 
 .sign-up {
@@ -137,6 +148,7 @@ img {
 
 .footer {
     background-color: #1F2937;
+    display:flex;
 }
 
 
